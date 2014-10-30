@@ -1,5 +1,5 @@
 {
-    "name": "jic/jic-math",
+    "name": "jicjjang/math",
 
     "description": "study math with composer",
 
@@ -18,11 +18,9 @@
         "php": ">=5.3.0"
     },
     "autoload" : {
-        "psr-0" : {
-            "Math\\" : "src/"
+        "psr-4" : {
+            "Jun\\Math\\" : "src/Jun/Math"
         }
-    },
+    }
 
-    "minimum-stability": "dev"
 }
-

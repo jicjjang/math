@@ -1,10 +1,10 @@
 <?php
 
-namespace Math;
+namespace Jun\Math;
 
 use InvalidArgumentException;
 
-class MyNumber {
+class NaturalNumber {
 
     public $num, $prime;
 
@@ -27,17 +27,16 @@ class MyNumber {
     }
 
     public function isPrime() {
+        $sqrt = sqrt($this->num);
 
-        for ( $inc=2; $inc < $this->num; $inc++ ) {
+        for ( $inc=2; $inc < $sqrt; $inc++ ) {
             $prime_num = $this->num / $inc;
             $this->prime = ( is_integer( $prime_num ) ) ? true : false;
+
             if ( $this->prime ) {
-                print_r('not prime');
-                return;
+                return false;
             }
         }
-
-        print_r('prime');
-        return;
+        return true;
     }
 }
