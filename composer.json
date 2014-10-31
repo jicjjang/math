@@ -1,21 +1,14 @@
 {
     "name": "jicjjang/math",
-
     "description": "study math with composer",
-
-    "minimum-stability" : "dev",
-
+    "license": "MIT",
     "authors" : [
         {
             "name" : "junseok, Choi",
             "email" : "jicjjang@gmail.com"
         }
     ],
-
-    "license": "MIT",
-
     "version" : "1.1.1",
-
     "require": {
         "php": ">=5.3.0"
     },
