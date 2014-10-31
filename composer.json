@@ -12,7 +12,7 @@
 
     "license": "me",
 
-    "version" : "dev",
+    "version" : "1.0.1",
 
     "require": {
         "php": ">=5.3.0"
