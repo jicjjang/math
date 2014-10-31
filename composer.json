@@ -15,7 +15,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Math\\" : "src/Math/"
+            "Jun\\Math\\" : "src/Jun/Math/"
         }
     }
 }
