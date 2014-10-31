@@ -3,6 +3,8 @@
 
     "description": "study math with composer",
 
+    "minimum-stability" : "dev",
+
     "authors" : [
         {
             "name" : "junseok, Choi",
