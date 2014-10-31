@@ -10,7 +10,7 @@
         }
     ],
 
-    "license": "me",
+    "license": "MIT",
 
     "version" : "1.0.1",
 
@@ -19,8 +19,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Jun\\Math\\" : "src/Jun/Math"
+            "Jun\\Math\\" : "src/Jun/Math/"
         }
-    },
-    "minimum-stability" : "dev"
+    }
 }
