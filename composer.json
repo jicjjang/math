@@ -21,6 +21,6 @@
         "psr-4" : {
             "Jun\\Math\\" : "src/Jun/Math"
         }
-    }
-
+    },
+    "minimum-stability" : "dev"
 }
