@@ -1,0 +1,5 @@
+<phpunit backupGlobals="false" backupStaticAttributes="false" syntaxCheck="false" bootstrap="./vendor/autoload.php">
+    <testsuite name="Math_Test">
+        <directory>unittest</directory>
+    </testsuite>
+</phpunit>
